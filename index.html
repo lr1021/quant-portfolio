@@ -74,6 +74,14 @@
             margin-top: 40px;
             color: #95a5a6;
         }
+
+        .content-container {
+            width: 80%; /* Adjust this percentage as needed */
+            max-width: 800px; /* Maximum width to keep content readable */
+            margin: 0 auto; /* Centers the container horizontally */
+            padding: 20px; /* Adds padding inside the container */
+            box-sizing: border-box; /* Ensures padding is included in width */
+        }
     </style>
 </head>
 <body>
@@ -82,48 +90,51 @@
     <h1>Luca Ratzinger</h1>
     <p>Email: ratzingerluca02@gmail.com | lr1021@ic.ac.uk | Phone: (0039) 3459130824</p>
 </header>
-
-<section class="section">
-    <h2>About Me</h2>
-    <p>
-        I am a final-year Mathematics MSci student at Imperial College London, with a strong foundation in statistical analysis and data science. I have experience in creating coding solutions for statistical and computational problems using Python.
-        I have completed a course in option pricing, focused on a discrete time martingale approach. I have expanded upon this with Hull, J. C. (2003). <em>Options, Futures, and Other Derivatives</em> (2nd ed.), Prentice-Hall, to learn about the Black-Scholes model and numerical procedures for derivative pricing.
-    </p>
-</section>
-
-<section class="section">
-    <h2>Resume</h2>
-    <p><a href="resume.pdf" target="_blank" rel="noopener noreferrer">View my resume</a></p>
-</section>
-
-<section class="section">
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Option Pricing Numerical Methods</strong><br>
-            <p>The purpose of this repository is to provide a practical implementation of various numerical methods for pricing options based on Hull, J. C. (2003). Options, Futures, and Other Derivatives (2nd ed.). Prentice-Hall, specifically Chapter 14: Numerical Procedures. Methods include Binomial Trees, Implicit and Explicit Finite Difference procedures and Monte Carlo Simulation. Beyond option pricing, estimation of hedging parameters is also implemented. Project code is in Python, with Jupyter notebooks to showcase implementation of defined classes and methods.</p>
-            <a href="https://github.com/lr1021/Option_Pricing_Numerical_Methods" target="_blank">View Project</a>
-        </li>
-    </ul>
-</section>
-
-<section class="section">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-        <li>Statistical Modeling</li>
-        <li>Time Series Analysis</li>
-        <li>Stochastic Processes</li>
-        <li>Data Analysis</li>
-        <li>Supervised Machine Learning</li>
-        <li>Unsupervised Machine Learning</li>
-        <li>Python</li>
-        <li>Visualisation with Python (matplotlib, seaborn)</li>
-        <li>SQL</li>
-        <li>R</li>
-        <li>MATLAB</li>
-        <li>Derivatives Pricing Methods</li>
-    </ul>
-</section>
+    
+<div class="content-container">
+    
+    <section class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a final-year Mathematics MSci student at Imperial College London, with a strong foundation in statistical analysis and data science. I have experience in creating coding solutions for statistical and computational problems using Python.
+            I have completed a course in option pricing, focused on a discrete time martingale approach. I have expanded upon this with Hull, J. C. (2003). <em>Options, Futures, and Other Derivatives</em> (2nd ed.), Prentice-Hall, to learn about the Black-Scholes model and numerical procedures for derivative pricing.
+        </p>
+    </section>
+    
+    <section class="section">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" target="_blank" rel="noopener noreferrer">View my resume</a></p>
+    </section>
+    
+    <section class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Option Pricing Numerical Methods</strong><br>
+                <p>The purpose of this repository is to provide a practical implementation of various numerical methods for pricing options based on Hull, J. C. (2003). Options, Futures, and Other Derivatives (2nd ed.). Prentice-Hall, specifically Chapter 14: Numerical Procedures. Methods include Binomial Trees, Implicit and Explicit Finite Difference procedures and Monte Carlo Simulation. Beyond option pricing, estimation of hedging parameters is also implemented. Project code is in Python, with Jupyter notebooks to showcase implementation of defined classes and methods.</p>
+                <a href="https://github.com/lr1021/Option_Pricing_Numerical_Methods" target="_blank">View Project</a>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Statistical Modeling</li>
+            <li>Time Series Analysis</li>
+            <li>Stochastic Processes</li>
+            <li>Data Analysis</li>
+            <li>Supervised Machine Learning</li>
+            <li>Unsupervised Machine Learning</li>
+            <li>Python</li>
+            <li>Visualisation with Python (matplotlib, seaborn)</li>
+            <li>SQL</li>
+            <li>R</li>
+            <li>MATLAB</li>
+            <li>Derivatives Pricing Methods</li>
+        </ul>
+    </section>
+</div>
 
 <footer>
     <p>&copy; 2024 Luca Ratzinger</p>
